@@ -19,7 +19,7 @@ import webapp2
 form="""
     <!DOCTYPE HTML>
     <html>
-    <form action="/testform">
+    <form method="post" action="/testform">
       <input name="q"></input>
       <input type="submit"></input>
     </form>
@@ -32,7 +32,7 @@ class MainHandler(webapp2.RequestHandler):
         self.response.out.write(form)
         
 class TestHandler(webapp2.RequestHandler):
-    def get(self):
+    def post(self):
         q=self.request.get("q")
         self.response.out.write(q)
         #self.response.headers['Content-Type']='text/plain'
