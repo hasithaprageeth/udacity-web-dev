@@ -19,7 +19,7 @@ import webapp2
 form="""
     <!DOCTYPE HTML>
     <html>
-    <form method="post" action="/testform">
+    <form action="/testform">
       <input name="q"></input>
       <input type="submit"></input>
     </form>
