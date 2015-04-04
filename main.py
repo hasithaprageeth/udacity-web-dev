@@ -21,9 +21,9 @@ form="""
     <html>
     <form method="get" action="/testform">
       <select name="q">
-      <option>One</option>
-      <option>Two</option>
-      <option>Three</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
       </select>
       <br>
       <input type="submit"></input>
