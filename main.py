@@ -20,7 +20,7 @@ form="""
     <!DOCTYPE HTML>
     <html>
     <form method="get" action="/testform">
-      <input type="checkbox" name="q"></input>
+      <input type="radio" name="q"></input>
       <input type="submit"></input>
     </form>
     </html>
