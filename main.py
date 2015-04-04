@@ -20,9 +20,11 @@ form="""
     <!DOCTYPE HTML>
     <html>
     <form method="get" action="/testform">
-      <lable>One<input type="radio" name="q" value="one"></input></lable>
-      <lable>Two<input type="radio" name="q" value="two"></input></lable>
-      <lable>Three<input type="radio" name="q" value="three"></input></lable>
+      <select name="q">
+      <option>One</option>
+      <option>Two</option>
+      <option>Three</option>
+      </select>
       <br>
       <input type="submit"></input>
     </form>
